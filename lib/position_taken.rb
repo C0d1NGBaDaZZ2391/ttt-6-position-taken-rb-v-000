@@ -8,5 +8,5 @@
   elsif board[0, 1] == "Y" || "Z"
     return false
   elsif board[0, 8] == "X" || "O"
-    true
+  end
 end# code your #position_taken? method here!

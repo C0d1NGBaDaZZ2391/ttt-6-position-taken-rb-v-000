@@ -1,12 +1,12 @@
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
   def position_taken?(board, index)
-  if board[0] == " "
+  if board[index] == " "
     return false
-  elsif board[0] == ""
+  elsif board[index] == ""
     return false
-  elsif board[0, 1] == "Y" || "Z"
+  elsif board[index] == nil
     return false
-  elsif board[0, 8] == "X" || "O"
+  elsif board[index] == "X" || "O"
   end
 end# code your #position_taken? method here!
